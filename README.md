@@ -1,4 +1,4 @@
-#Generate memorable passwords in a Laravel app
+# Generate memorable passwords in a Laravel app
 Generates noticeable passwords from a list of available words separated by a delimiter.
 
 In the config file you will find some options:
@@ -9,7 +9,7 @@ In the config file you will find some options:
 * words: List of all available words
 * delimiters: List of all available word separators
 
-##Installation
+## Installation
 You can install the package via composer:
 ```bash
 composer require nicolaskuster/laravel-memorable-passwords
@@ -20,7 +20,7 @@ You can publish the config-file with:
 php artisan vendor:publish --provider="Nicolaskuster\MemorablePasswords\Providers\MemorablePasswordServiceProvider"
 ```     
 
-##Usage examples
+## Usage examples
 Code:
 ```php
 for ($i = 0; $i < 10; $i++) {
@@ -57,7 +57,7 @@ Wein4_huNd2
 pfEffer4-glAs5
 ```
 
-##Testing
+## Testing
 You can run all the tests with:
 ```bash
 composer test
